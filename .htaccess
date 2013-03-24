@@ -1,0 +1,20 @@
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|images|js|css|app|assets|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1 [L]
+
+# BEGIN EDITOR_ID
+<ifmodule mod_rewrite.c>
+    RewriteEngine on
+    Options +FollowSymlinks
+
+	#Si la url solicitada no es un fichero(existente), continuar...
+	RewriteCond %{REQUEST_FILENAME} !-f
+	
+	#Si la url solicitada no es una carpeta(existente), continuar...
+	RewriteCond %{REQUEST_FILENAME} !-d
+	
+	RewriteRule ^(.*)$ index.php/$1 [L]
+	
+</ifmodule>
+
+# END EDITOR_ID	

@@ -1,0 +1,23 @@
+[24-Mar-2013 02:38:42 America/Buenos_Aires] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eidcomar/public_html/ml/application/controllers/api.php on line 43
+[24-Mar-2013 02:39:46 America/Buenos_Aires] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eidcomar/public_html/ml/application/controllers/api.php on line 43
+[24-Mar-2013 03:41:32 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/eidcomar/public_html/ml/application/controllers/api.php on line 82
+[24-Mar-2013 04:20:57 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/eidcomar/public_html/ml/application/views/productos_view.php on line 2
+[24-Mar-2013 05:13:23 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected '[', expecting T_VARIABLE or '$' in /home/eidcomar/public_html/ml/application/helpers/token_helper.php on line 11
+[24-Mar-2013 05:14:40 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/eidcomar/public_html/ml/application/controllers/productos.php on line 25
+[24-Mar-2013 05:15:50 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/eidcomar/public_html/ml/application/controllers/productos.php on line 25
+[24-Mar-2013 05:21:05 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/eidcomar/public_html/ml/application/controllers/productos.php on line 25
+[24-Mar-2013 05:40:01 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected '}' in /home/eidcomar/public_html/ml/application/controllers/productos.php on line 23
+[24-Mar-2013 05:53:19 America/Buenos_Aires] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eidcomar/public_html/ml/application/controllers/productos.php on line 33
+[24-Mar-2013 05:53:46 America/Buenos_Aires] PHP Fatal error:  Cannot use object of type stdClass as array in /home/eidcomar/public_html/ml/application/controllers/productos.php on line 34
+[24-Mar-2013 06:10:56 America/Buenos_Aires] PHP Fatal error:  Can't use method return value in write context in /home/eidcomar/public_html/ml/application/controllers/api.php on line 11
+[24-Mar-2013 06:12:11 America/Buenos_Aires] PHP Fatal error:  Call to a member function get_html() on a non-object in /home/eidcomar/public_html/ml/application/controllers/login.php on line 30
+[24-Mar-2013 06:12:52 America/Buenos_Aires] PHP Fatal error:  Call to a member function get_html() on a non-object in /home/eidcomar/public_html/ml/application/controllers/login.php on line 27
+[24-Mar-2013 06:53:26 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 06:58:28 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected ';' in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 06:58:51 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected ';' in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 07:07:41 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 07:07:42 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 07:08:16 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 07:08:17 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 07:08:30 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 07:08:34 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
