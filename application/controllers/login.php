@@ -1,11 +1,12 @@
-﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
 class Login extends CI_Controller {
 
 
+	var $usuario_id;
 	
 	public function index()
 	{
-		$data['resaltar'] = 'ingresar';
 		$this->load->view('login', $data);
 	}
 	
@@ -18,14 +19,24 @@ class Login extends CI_Controller {
 		$this->form_validation->set_rules('password', 'Contraseña', 'required|callback_passwordcheck');
 		$this->form_validation->set_message('passwordcheck', 'Usuario o Contraseña incorrectos');
 		if ($this->form_validation->run()){
-			$this->db->where('email', $this->input->post("email"));
+			$this->session->set_userdata(array('usuario_id'=>$this->usuario_id, 'is_administrator'=>false, 'is_user'=>true));
+			$this->db->where('id', $this->usuario_id);
 			$this->db->update('usuarios', array('ultimo_ingreso'=>date('Y-m-d H:i:s'), 'ultimo_ip'=>$this->input->ip_address()));
-			redirect('home/');
+			redirect('productos/');
 		}else{
-			
+			//$data['recaptcha'] = $this->recaptcha->get_html();
 			$data['resaltar'] = 'ingresar';
 			$this->load->view('login', $data);
 		}
+	}
+	
+	function check_captcha($val) {
+	  if ($this->recaptcha->check_answer($this->input->ip_address(),$this->input->post('recaptcha_challenge_field'),$val)) {
+	    return TRUE;
+	  } else {
+	    $this->form_validation->set_message('check_captcha',$this->lang->line('recaptcha_incorrect_response'));
+	    return FALSE;
+	  }
 	}
 	
 	public function passwordcheck(){

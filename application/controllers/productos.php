@@ -18,9 +18,12 @@ class Productos extends CI_Controller {
 			), 'json');
 		
 		$itemsIds = '';
+		
+		
 		foreach($resultados->results as $itemId){
 			$itemsIds .= $itemId . ',';
 		}
+	
 		
 		$resultadosItems = $this->rest->get('items', 
 			array(

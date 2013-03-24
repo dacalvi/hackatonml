@@ -39,7 +39,7 @@ class Api extends CI_Controller {
 		
 		//si no viene desde autenticar la primera vez
 		if(!$this->input->get('code')){
-			redirect('dashboard');
+			redirect('productos');
 		}
 	
 		$this->load->library('rest', array(

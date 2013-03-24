@@ -21,3 +21,7 @@
 [24-Mar-2013 07:08:17 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
 [24-Mar-2013 07:08:30 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
 [24-Mar-2013 07:08:34 America/Buenos_Aires] PHP Parse error:  syntax error, unexpected $end in /home/eidcomar/public_html/ml/application/controllers/proveedores.php on line 1
+[24-Mar-2013 08:54:29 America/Buenos_Aires] PHP Fatal error:  Call to a member function decode() on a non-object in /home/eidcomar/public_html/ml/application/controllers/login.php on line 40
+[24-Mar-2013 09:02:37 America/Buenos_Aires] PHP Fatal error:  Call to a member function get_html() on a non-object in /home/eidcomar/public_html/ml/application/controllers/login.php on line 27
+[24-Mar-2013 09:03:04 America/Buenos_Aires] PHP Fatal error:  Call to a member function get_html() on a non-object in /home/eidcomar/public_html/ml/application/controllers/login.php on line 27
+[24-Mar-2013 09:03:08 America/Buenos_Aires] PHP Fatal error:  Call to a member function get_html() on a non-object in /home/eidcomar/public_html/ml/application/controllers/login.php on line 27
